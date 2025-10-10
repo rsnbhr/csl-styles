@@ -15,7 +15,7 @@
     <category field="engineering"/>
     <category field="science"/>
     <category field="generic-base"/>
-    <summary>PAÜ FBE için, "APA 6 (Türkçe)" stilinin hafifçe revize edilmiş sürümü. Başlıca değişiklikler: (i) metin içi atıflarda üç ve daha fazla yazarlı çalışmalarda ilk ve sonraki tüm atıflarda "ve diğerleri" (et al.) kullanımı; (ii) bibliyografyada tüm yazarların listelenmesi (et al. yok). Bu çalışma, "American Psychological Association 6th edition (Türkçe)" stilinden türetilmiş olup orijinal lisans ve atıflar korunmaktadır. Ersin Bahar.</summary>
+    <summary>PAÜ FBE için, "APA 6 (Türkçe)" stilinin hafifçe revize edilmiş sürümü. Başlıca değişiklikler: (i) metin içi atıflarda üç ve daha fazla yazarlı çalışmalarda ilk ve sonraki tüm atıflarda "ve diğerleri" (et al.) kullanımı; (ii) bibliyografyada tüm yazarların listelenmesi (et al. yok); (iii) bibliyografyada lisansüstü tezler yazılırken ufak değişiklikler yapılmıştır. Bu çalışma, "American Psychological Association 6th edition (Türkçe)" stilinden türetilmiş olup orijinal lisans ve atıflar korunmaktadır. APA 6 (Türkçe) stil yazarı Kasım Binici'ye emekleri için teşekkürler. Ersin Bahar.</summary>
     <updated>2025-10-03T11:54:00+03:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
@@ -184,7 +184,7 @@
   <macro name="title">
     <choose>
       <if type="report">
-        <text variable="title" font-style="italic"/>
+        <text variable="title"/>
         <group prefix=" (" suffix=")">
           <text variable="genre"/>
           <text variable="number" prefix=" No: "/>
@@ -209,10 +209,10 @@
       <else-if type="thesis">
         <choose>
           <if variable="archive URL" match="any">
-            <text variable="genre" text-case="capitalize-first" prefix=" (" suffix=")"/>
+            <text variable="genre" text-case="capitalize-first" prefix=" " suffix=""/>
           </if>
           <else>
-            <text variable="genre" text-case="lowercase" prefix=" (Yayımlanmamış " suffix="). "/>
+            <text variable="genre" text-case="capitalize-first" prefix=" " suffix=". "/>
             <group delimiter=", ">
               <text variable="publisher"/>
               <text variable="publisher-place"/>

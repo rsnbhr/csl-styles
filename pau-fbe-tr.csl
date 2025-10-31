@@ -22,7 +22,7 @@
   <locale xml:lang="tr-TR">
     <terms>
       <term name="no date">t.y.</term>
-      <term name="et-al">v.d.</term>
+      <term name="et-al">vd.</term>
       <term name="and">ve</term>
       <term name="in">içinde</term>
       <term name="retrieved">erişildi</term>
@@ -500,5 +500,7 @@
       </group>
       <text macro="access" prefix=" "/>
     </layout>
+  </bibliography>
+</style>
   </bibliography>
 </style>

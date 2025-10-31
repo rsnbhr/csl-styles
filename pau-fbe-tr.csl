@@ -6,7 +6,7 @@
     <id>http://www.zotero.org/styles/pau-fbe-tr</id>
     <link href="http://www.zotero.org/styles/pau-fbe-tr" rel="self"/>
     <link href="http://www.zotero.org/styles/apa-tr" rel="template"/>
-    <link href="https://www.pau.edu.tr/fenbilimleri/tr/sayfa/tez-yazim-kurallari-3"/>
+    <link href="https://www.pau.edu.tr/fenbilimleri/tr/sayfa/tez-yazim-kurallari-3" rel="documentation"/>
     <contributor>
       <name>Ersin Bahar</name>
       <email>ebahar@pau.edu.tr</email>
